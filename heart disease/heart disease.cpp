@@ -539,7 +539,6 @@ public:
         cout << "---------------------------------------------------------------\n";
         cout << "Correct predictions: " << correct << " out of " << records.size() << endl;
         cout << "Estimated accuracy on loaded file: " << accuracy << "%\n";
-        cout << "Note: This is a simple school project model, not true AI.\n";
         cout << "---------------------------------------------------------------\n";
     }
     PatientRecord enterPatientManually() const
