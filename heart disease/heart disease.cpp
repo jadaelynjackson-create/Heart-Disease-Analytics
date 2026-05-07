@@ -7,37 +7,6 @@
 #include <algorithm>
 #include <cmath>
 using namespace std;
-// ================================================================
-// Heart Disease Analytics Program
-// ---------------------------------------------------------------
-// This program is made for a C++ class project.
-// It reads heart-disease style CSV data and predicts the chance
-// that a patient may have heart disease based on common columns:
-//
-// age, sex, cp, trestbps, chol, fbs, restecg, thalach,
-// exang, oldpeak, slope, ca, thal, target
-//
-// IMPORTANT:
-// This program is for school analytics practice only.
-// It is NOT medical advice and should not be used to diagnose anyone.
-// ================================================================
-// ---------------------------------------------------------------
-// Meaning of the CSV columns:
-// age      = age in years
-// sex      = 1 male, 0 female
-// cp       = chest pain type, 0-3
-// trestbps = resting blood pressure
-// chol     = cholesterol
-// fbs      = fasting blood sugar above 120 mg/dl, 1 true, 0 false
-// restecg  = resting ECG result, 0-2
-// thalach  = maximum heart rate achieved
-// exang    = exercise induced angina, 1 yes, 0 no
-// oldpeak  = ST depression caused by exercise
-// slope    = slope of peak exercise ST segment, 0-2
-// ca       = number of major vessels, 0-4
-// thal     = thalassemia value, 0-3
-// target   = actual dataset result, 1 disease, 0 no disease
-// ---------------------------------------------------------------
 class PatientRecord
 {
 private:
